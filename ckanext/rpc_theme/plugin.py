@@ -2,7 +2,7 @@ import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
 
 
-class Rpc_ThemePlugin(plugins.SingletonPlugin):
+class RpcThemePlugin(plugins.SingletonPlugin):
     plugins.implements(plugins.IConfigurer)
 
     # IConfigurer

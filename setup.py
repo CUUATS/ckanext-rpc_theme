@@ -80,7 +80,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points='''
         [ckan.plugins]
-        rpc_theme=ckanext.rpc_theme.plugin:Rpc_ThemePlugin
+        rpc_theme=ckanext.rpc_theme.plugin:RpcThemePlugin
 
         [babel.extractors]
         ckan = ckan.lib.extract:extract_ckan
