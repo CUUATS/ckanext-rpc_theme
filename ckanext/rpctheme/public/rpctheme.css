@@ -1,0 +1,71 @@
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+a.tag:hover {
+  background-color: #8dc53f;
+  border: 1px solid #6ba41c;
+  box-shadow: inset 0 1px 0 #b0e369;;
+  -webkit-box-shadow: inset 0 1px 0 #b0e369;
+}
+
+.masthead,
+.homepage .module-search .module-content {
+  background: #2e3191 none;
+}
+
+body,
+.site-footer,
+.homepage .module-search .tags {
+  background: #333333 none;
+}
+
+[role="main"],
+.main {
+  background: white none;
+}
+
+.hero {
+  background-color: #eeeeee;
+}
+
+.box,
+.wrapper,
+.well {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.box h2:first-child {
+  margin-top: 0;
+}
+
+.media-grid {
+  padding-bottom: 15px;
+}
+
+.media-item,
+.media-view {
+  border-radius: 0;
+}
+
+.media-heading,
+.context-info h1.heading {
+  hyphens: none;
+  word-break: normal;
+}
+
+.homepage .module-search .module-content,
+.homepage .module-search .tags {
+  border-radius: 0;
+}
